@@ -1,0 +1,10 @@
+[04-Aug-2010 22:20:01] PHP Fatal error:  Call to undefined function  insert() in /home/indigo/public_html/ocfb/test.php on line 11
+[04-Aug-2010 22:21:43] PHP Parse error:  syntax error, unexpected T_STRING, expecting ',' or ';' in /home/indigo/public_html/ocfb/test.php on line 8
+[04-Aug-2010 22:43:32] PHP Parse error:  syntax error, unexpected T_STRING in /home/indigo/public_html/ocfb/test.php on line 8
+[04-Aug-2010 22:59:15] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/indigo/public_html/ocfb/test.php on line 224
+[04-Aug-2010 22:59:20] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/indigo/public_html/ocfb/test.php on line 224
+[04-Aug-2010 23:00:40] PHP Parse error:  syntax error, unexpected T_VARIABLE, expecting ',' or ';' in /home/indigo/public_html/ocfb/test.php on line 224
+[04-Aug-2010 23:12:41] PHP Parse error:  syntax error, unexpected '&' in /home/indigo/public_html/ocfb/test.php on line 226
+[04-Aug-2010 23:12:44] PHP Parse error:  syntax error, unexpected '&' in /home/indigo/public_html/ocfb/test.php on line 226
+[04-Aug-2010 23:13:21] PHP Parse error:  syntax error, unexpected '&' in /home/indigo/public_html/ocfb/test.php on line 225
+[04-Aug-2010 23:13:23] PHP Parse error:  syntax error, unexpected '&' in /home/indigo/public_html/ocfb/test.php on line 225
