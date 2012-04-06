@@ -1,13 +1,14 @@
 body {
 	background-color: #D6D6D6;
 	margin: auto;
+	margin-top: 20px;
 	width: 870px;
 	padding: 0px;
 }
 
 header img{
 	position:absolute;
-	top: 0px;
+	top: 20px;
 }
 
 .fg{
@@ -51,7 +52,7 @@ footer{
 
 article, footer{
 	padding: 5px;
-	font-family: Helvetica;
+	font-family: times;
 }
 	/*
             
