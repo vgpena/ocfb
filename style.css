@@ -1,9 +1,15 @@
+html { height: 100%; margin-bottom: 1px;}
+
 body {
 	background-color: #D6D6D6;
 	margin: auto;
-	margin-top: 20px;
 	width: 870px;
-	padding: 0px;
+}
+
+header{
+	height: 335px;
+	padding-top: 20px;
+	overflow: hidden;
 }
 
 header img{
@@ -18,12 +24,13 @@ top: -100px;
 }
 
 nav{
-	margin-top: -152px;
+	margin-top: -4px;
 	margin-left: 0px;
 	margin-right: 0px;
 	margin-bottom: 0px;
 	width: 100%;
 	background-color: #fff000;
+	z-index: 2;
 }
 nav	li{
 	display:inline-block;

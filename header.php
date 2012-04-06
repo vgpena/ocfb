@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<html>
     <head>
         <title>OCFB ONLINE: CONVOLUTI APIBUS</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
@@ -22,7 +23,7 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="index.php" class="home">home</a>
+					<a href="/" class="home">home</a>
 				</li>
 				<li>
 					<a href="about.php" class="about">about</a>
