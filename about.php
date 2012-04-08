@@ -1,11 +1,12 @@
 <?php include("header.php"); ?> 
 <h1>About the Flaming Blades</h1>
+<blockquote cite="http://www.oberlinconfessional.com/">
 <p>
 Oberlinese: I am on the fencing team. <br>
 English: I can and will fulfill your wildest fantasies.<br>
 &nbsp;&nbsp;&nbsp;--<a href="http://www.oberlinconfessional.com/" target="_blank">Oberlin Confessional</a>
 </p>
-<br>
+</blockquote>
 <p>
 The Oberlin College Fencing Club (aka the Oberlin College Flaming Blades) is the official fencing team of Oberlin College. It is the oldest chartered club sport of the college, and has been converting young, impressionable students to the glories of fencing since 1929. Our members are of all genders, weapons, and skill levels; many are lettered in the <a href="http://usfencing.org/" target="_blank">USFA</a> ranking system, and even more continue to fence beyond college. Our coach is <a href="http://www.hookedonfencing.org/coach-walt-dragonetti" target="_blank">Walt Dragonetti</a> (part epeeist, part demigod), who also coaches at the nearby <a href="http://www.hookedonfencing.org/" target="_blank">Hooked on Fencing</a>.
 
