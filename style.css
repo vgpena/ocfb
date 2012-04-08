@@ -1,3 +1,9 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=latin,latin-ext);
+
+@import url(http://fonts.googleapis.com/css?family=Copse&subset=latin,latin-ext);
+
+
+
 html { height: 100%; margin-bottom: 1px;}
 
 body {
@@ -43,23 +49,63 @@ nav a{
 	width: 100%;
 	display:block;
 	text-align:center;
+	font-family: Open Sans;
+	text-transform: uppercase;
 }
 
 article{
-	background-color: #727272;
 	margin-top: -6px;
 	margin-bottom: 0px;
 }
 
 footer{
-	background-color: #727272;
-	margin-top: -1em;
 	text-align:center;
 }
 
 article, footer{
 	padding: 5px;
-	font-family: times;
+	background-color: #727272;
+}
+
+article a{
+	font-family: Open Sans;
+	text-decoration: none;
+}
+
+footer a{
+	font-family: Copse;
+	text-decoration: none;
+	text-transform: uppercase;
+	padding-bottom: 2em;
+}
+
+h1{
+	width: 862px;
+	font-size: 30px;
+	letter-spacing: 2px;
+	text-align: center;
+	font-weight: normal;
+	margin-top: 8px;
+	line-height: 1em;
+	border-bottom: solid 3px #fff;
+}
+
+h1, h2{
+	font-family: Copse;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+h2{
+	margin-top: 40px;
+	margin-bottom: -10px;
+}
+
+p{
+	color: #eee;
+	font-family: Open Sans;
+	font-size: 14px;
+	line-height: 1.5em;
 }
 	/*
             
