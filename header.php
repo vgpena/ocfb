@@ -3,7 +3,7 @@
     <head>
         <title>OCFB ONLINE: CONVOLUTI APIBUS</title>
         <link rel="stylesheet" type="text/css" href="style.css" />
-       <!-- <!--FOR LIGHTBOX-->
+	<!--FOR LIGHTBOX-->
         <link rel="stylesheet" type="text/css" href="css/lightbox.css" />
         <script type="text/javascript" src="js/prototype.js">
         </script>
@@ -11,9 +11,7 @@
         </script>
         <script type="text/javascript" src="js/lightbox.js">
         </script>
-        <!--/LIGHTBOX
         <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-        -->
     </head>
     <body>
 		<header>

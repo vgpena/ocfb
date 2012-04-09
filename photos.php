@@ -2,13 +2,15 @@
 <h1>Photo Gallery</h1>
 <p>Throughout the years we have amassed quite a number of photos documenting our grand exploits, achievements, and fun, both on and off the fencing piste. Here we present to you a selection of these pictures, all taken by members of the good ol' Flaming Blades.</p>
     <h2>CHAMPS 2010</h2>
+    <ul class="photos">
     <?php
 					$imgs = glob("photos/champs2010/*.*");
 					$thumbs = glob("photos/champs2010/thumbs/*.*");
 					for ($i=0; $i<count($imgs); $i++) {
 					$img = $imgs[$i];
 					$thumb = $thumbs[$i];
-					echo '<a href="'.$img.'" rel="lightbox[champs2010]" title="2010 Midwest Fencing Conference Championships, University of Notre Dame, 6-7 Mar"><img src="'.$thumb.'"></a>'."&nbsp;"; } ?>
+					echo '<li><a href="'.$img.'" rel="lightbox[champs2010]" title="2010 Midwest Fencing Conference Championships, University of Notre Dame, 6-7 Mar"><img src="'.$thumb.'"></a></li>'; } ?>
+	</ul>
     <br>
     <br>
     <h2>STABBED IN THE HEART 2010</h2>
