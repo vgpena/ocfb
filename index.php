@@ -1,6 +1,12 @@
 <?php include("header.php"); ?> 
-<h1>OHAI DERE</h1>
-                <p>
-                    Welcome to the homepage of the <b>Flaming Blades</b>! We are a co-ed, three-weapon <i>fencing team</i> based in <s>some shady guy's basement</s> the gorgeous and totally legit <a href="http://oberlin.edu" target="_blank">Oberlin College</a> in northern Ohio. We fence in NCAA competitions, host multiple USFA tournaments each year, and wreak general havoc seven days a week. If you are interested in joining the team, learning how to fence at Oberlin, or sexing us up in some other manner, stay for a while and take a look around.
-                </p>
+<h1>En garde!</h1>
+<p>
+Welcome to the homepage of the <b>Oberlin College Flaming Blades</b>! We are a co-ed, three-weapon fencing team; we've been around since 1929 and are stil going strong. Situated just outside of Cleveland, OH, we compete in NCAA and USFA tournaments. Feel free to look around the site and learn more about us! If you have any questions, see who you should talk to on the <a href="contact.php">contact page</a>.
+</p>
+<p>
+<b>Prospective Student?</b> Shoot us an <a href="mailto:fencing@oberlin.edu">e-mail</a>, or drop by practice.
+</p>
+<p>
+<b>Want to join the team?</b> If you have previous experience, start coming to practice! <b>No previous experience?</b> Take the <a href="exco.php">ExCo</a>!
+</p>
 <?php include("footer.php"); ?>

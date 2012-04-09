@@ -3,19 +3,11 @@
 
 <ul id="roster">
 <li>
-	<figure><img src="twi.jpg"></figure>
-	<h3>Twilight Sparkle</h3>
-	<h4>Women's &Eacute;p&eacute;e</h4>
-	<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular gun in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
+	<figure><img src="photos/roster/violet_pena.jpg"></figure>
+	<h3>Violet Pe&ntilde;a</h3>
+	<h4>Women's &Eacute;p&eacute;e / Armorer / Webmaster</h4>
+	<p>Violet, a senior, is is a Hispanic Studies major and a Philosophy minor. She hails from Buffalo, NY and currently lives in Berkeley, CA. Her Honors thesis consists of translating a selection of <i>greguer&iacute;as</i>, by Ram&oacute;n G&oacute;mez de la Serna, into English for the first time. After graduation, she will pursue a Shansi fellowship and, later, graduate work in linguistics. Her interests include web development, learning new languages, and travelling.</p>
 </li>
-
-<li>
-	<figure><img src="twi.jpg"></figure>
-	<h3>Twilight Sparkle</h3>
-	<h4>Women's &Eacute;p&eacute;e</h4>
-	<p>Now that there is the Tec-9, a crappy spray gun from South Miami. This gun is advertised as the most popular <a href="">gun</a> in American crime. Do you believe that shit? It actually says that in the little book that comes with it: the most popular gun in American crime. Like they're actually proud of that shit. </p>
-<p>
-My money's in that office, right? If she start giving me some bullshit about it ain't there, and we got to go someplace else and get it, I'm gonna shoot you in the head then and there. Then I'm gonna shoot that bitch in the kneecaps, find out where my goddamn money is. She gonna tell me too. Hey, look at me when I'm talking to you, motherfucker. You listen: we go in there, and that nigga Winston or anybody else is in there, you the first motherfucker to get shot. You understand?</p>
 </li>
 </ul>
 <?php include("footer.php"); ?> 
