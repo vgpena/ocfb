@@ -490,7 +490,8 @@ Lightbox.prototype = {
 			pageWidth = windowWidth;
 		}
 
-		return [pageWidth,pageHeight];
+		//return [pageWidth,pageHeight]; The pageWidth doesn't return the proper width. When I ask it to return document.body.innerHeight, it doesn't return the proper height. Okay.
+		return [document.body.innerWidth, pageHeight];
 	}
 }
 
