@@ -12,6 +12,8 @@ body {
 
 header{
 	height: 335px;
+	width: 870px;
+	display: block;
 	padding-top: 20px;
 	overflow: hidden;
 }
