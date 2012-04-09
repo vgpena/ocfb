@@ -3,9 +3,6 @@
 @import url(http://fonts.googleapis.com/css?family=Copse&subset=latin,latin-ext);
 
 
-
-html { height: 100%; margin-bottom: 1px;}
-
 body {
 	background-color: #D6D6D6;
 	margin: auto;
@@ -124,8 +121,10 @@ footer{
 }
 
 article, footer{
-	padding: 5px;
 	background-color: #727272;
+	width: 860px;
+	display:block;
+	padding: 5px;
 }
 
 article a{

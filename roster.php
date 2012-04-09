@@ -4,7 +4,7 @@
 <ul id="roster">
 
 <p>
-	<center><h3>***Hey everyone! Send me your info so I can put you on the roster!****</h3></center>
+	<center><h3>***Send me your info so I can put you on the roster!****</h3></center>
 </p>	
 <br />
 <br />

@@ -15,8 +15,8 @@
     </head>
     <body>
 		<header>
-				<img src="word.jpg" class="bg" alt="Oberlin College Flaming Blades: Convoluti Apibus">
-				<img src="pretty.png" class="fg" alt="">
+			<img src="word.jpg" class="bg" alt="Oberlin College Flaming Blades: Convoluti Apibus">
+			<img src="pretty.png" class="fg" alt="">
 		</header>
 		<nav>
 			<ul>
