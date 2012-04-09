@@ -11,6 +11,7 @@ The layout was designed using Adobe Photoshop and Adobe lllustrator, and coded w
 		<ul class="sub">
 			<li><a href="about.php#practice">Practice</a></li>
 			<li><a href="about.php#schedule">Schedule</a></li>
+			<li><a href="about.php#officers">Officers</a></li>
 			<li><a href="about.php#membership">Membership</a></li>
 			<li><a href="about.php#equipment">Equipment</a></li>
 			<li><a href="about.php#competition">Competition</a></li>

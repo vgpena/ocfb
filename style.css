@@ -47,7 +47,7 @@ nav a{
 	width: 100%;
 	display:block;
 	text-align:center;
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 	text-decoration: none;
 	color: #f4f4f4;
@@ -129,19 +129,19 @@ article, footer{
 }
 
 article a{
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	color: #BDBDBD;
 }
 
 a h2{
-	font-family: Copse;
+	font-family: "Copse", serif;
 	text-transform: uppercase;
 	color: #fff;
 	text-decoration: none;
 }
 
 footer, footer a{
-	font-family: Copse;
+	font-family: "Copse", serif;
 	text-decoration: none;
 	text-transform: uppercase;
 	padding-bottom: 1em;
@@ -177,7 +177,7 @@ h2{
 
 p, ul, li{
 	color: #eee;
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
 }
@@ -188,7 +188,7 @@ li{
 
 blockquote{
 	color: #eee;
-	font-family: Open Sans;
+	font-family: "Open Sans", sans-serif;
 	font-size: 14px;
 	line-height: 1.5em;
 	border-left: solid 5px #BDBDBD;
@@ -236,10 +236,7 @@ figure img{
 }
 
 .photos img{
-	-moz-box-shadow: #2E2E2E 0px 0px 1px 0px;
-	-webkit-box-shadow: #2E2E2E 0px 0px 1px 0px;
-	-o-box-shadow: #2E2E2E 0px 0px 1px 0px;
-	box-shadow: #2E2E2E 0px 0px 1px 0px;
+	box-shadow: 0px 0px 1px 0px #2E2E2E;
 }
 
 iframe{

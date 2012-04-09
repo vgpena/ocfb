@@ -23,6 +23,15 @@ Dragonetti comes by at least twice a week, to lead us in drills, give individual
 <b>Sunday</b> 4-6<br />
 </p>
 
+<a name="officers"></a><h2>Officers</h2>
+<p>
+<b>NCAA Captain:</b> Jamie Yelland<br />
+<b>USFA Captain:</b> Nick Loh<br />
+<b>Treasurer:</b> Sam McCright<br />
+<b>PR:</b> Isabella Esler, Meg Davis<br />
+<b>Armorers:</b> Emily Gazda, Violet Pe&ntilde;a<br />
+</p>
+
 <a name="membership"></a><h2>Membership</h2>
 <p>We welcome fencers of all skill/experience levels, but we <i>do</i> require some amount of experience prior to joining the team. If you have fenced very little or not at all, we recommend taking the <a href="exco.php">beginning fencing ExCo</a> to brush up on the basics and get regain those thighs o' steel before sparring with the team. Otherwise, we take new members at any point during the year; <a href="contact.php">e-mail</a> an officer or stop by practice if you are interested in joining. There is no joining or membership fee. You <i>do</i> need to be on the roster to practice on the team, but it just requires a little bit of paperwork.<br />
 <b>You are also allowed to join even if you do not go to Oberlin.</b> You can't compete, and there is a bit more paperwork, but if you live in the area and want to practice with us, you are more than welcome here!
