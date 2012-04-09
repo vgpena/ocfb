@@ -21,22 +21,22 @@
 		<nav>
 			<ul>
 				<li>
-					<a href="/" class="home">home</a>
+					<a href="/" id="home">home</a>
 				</li>
 				<li>
-					<a href="about.php" class="about">about</a>
+					<a href="about.php" id="about">about</a>
 				</li>
 				<li>
-					<a href="roster.php" class="roster">roster</a>
+					<a href="roster.php" id="roster">roster</a>
 				</li>
 				<li>
-					<a href="photos.php" class="photos">photos</a>
+					<a href="photos.php" id="photos">photos</a>
 				</li>
 				<li>
-					<a href="exco.php" class="exco">exco</a>
+					<a href="exco.php" id="exco">exco</a>
 				</li>
 				<li>
-					<a href="mudkips.php" class="culture">culture</a>
+					<a href="mudkips.php" id="culture">culture</a>
 				</li>
 			</ul>
 		</nav>

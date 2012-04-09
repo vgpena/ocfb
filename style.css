@@ -10,6 +10,7 @@ body {
 	background-color: #D6D6D6;
 	margin: auto;
 	width: 870px;
+	padding-bottom: 2em;
 }
 
 header{
@@ -24,9 +25,9 @@ header img{
 }
 
 .fg{
-position:relative;
-left: 96px;
-top: -100px;
+	position:relative;
+	left: 96px;
+	top: -100px;
 }
 
 nav{
@@ -58,56 +59,56 @@ nav a:hover {
 	text-decoration: none;
 }
 
-nav a:link.home, nav a:active.home, nav a:visited.home {
+nav a:link#home, nav a:active#home, nav a:visited#home {
 	background-color: #bf4c4c;
 }
 
-nav a:hover.home {
+nav a:hover#home {
 	background-color: #d14949;
 	text-decoration: none;
 }
 
-nav a:link.about, nav a:active.about, nav a:visited.about {
+nav a:link#about, nav a:active#about, nav a:visited#about {
 	background-color: #c68628;
 }
 
-nav a:hover.about {
+nav a:hover#about {
 	background-color: #d98f22;
 	text-decoration: none;
 }
 
-nav a:link.roster, nav a:active.roster, nav a:visited.roster {
+nav a:link#roster, nav a:active#roster, nav a:visited#roster {
 	background-color: #efea4b;
 }
 
-nav a:hover.roster {
+nav a:hover#roster {
 	background-color: #fdf744;
 	text-decoration: none;
 }
 
-nav a:link.photos, nav a:active.photos, nav a:visited.photos {
+nav a:link#photos, nav a:active#photos, nav a:visited#photos {
 	background-color: #28c645;
 }
 
-nav a:hover.photos {
+nav a:hover#photos {
 	background-color: #1dd83f;
 	text-decoration: none;
 }
 
-nav a:link.exco, nav a:active.exco, nav a:visited.exco {
+nav a:link#exco, nav a:active#exco, nav a:visited#exco {
 	background-color: #32b6ea;
 }
 
-nav a:hover.exco {
+nav a:hover#exco {
 	background-color: #2ac0fb;
 	text-decoration: none;
 }
 
-nav a:link.culture, nav a:active.culture, nav a:visited.culture {
+nav a:link#culture, nav a:active#culture, nav a:visited#culture {
 	background-color: #806095;
 }
 
-nav a:hover.culture {
+nav a:hover#culture {
 	background-color: #9a6fb6;
 	text-decoration: none;
 }
@@ -119,6 +120,7 @@ article{
 
 footer{
 	text-align:center;
+	padding-top: 2em;
 }
 
 article, footer{
@@ -216,7 +218,7 @@ figure img{
 
 .photos{
 	padding: 0px;
-	line-height: 2em;
+	line-height: 3em;
 }
 
 .photos li{
@@ -230,9 +232,9 @@ figure img{
 
 .photos img{
 	-moz-box-shadow: #2E2E2E 0px 0px 1px 0px;
--webkit-box-shadow: #2E2E2E 0px 0px 1px 0px;
--o-box-shadow: #2E2E2E 0px 0px 1px 0px;
-box-shadow: #2E2E2E 0px 0px 1px 0px;
+	-webkit-box-shadow: #2E2E2E 0px 0px 1px 0px;
+	-o-box-shadow: #2E2E2E 0px 0px 1px 0px;
+	box-shadow: #2E2E2E 0px 0px 1px 0px;
 }
 	/*
             
