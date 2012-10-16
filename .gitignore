@@ -8,3 +8,10 @@ photos/*
 
 .DS_Store
 .pyc
+ 
+
+/ocfb/ocfb/*.pyc
+/ocfb/roster/*.pyc
+
+
+*db

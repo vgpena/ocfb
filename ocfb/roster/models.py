@@ -20,7 +20,13 @@ WEAPON_CHOICES = (
 class Member(models.Model):
 	first_name = models.CharField(max_length=20)
 	last_name = models.CharField(max_length=40)
-	grad_year = models.IntegerField(max_length=4)
+	slug = models.SlugField(max_length=40)
+	grad_year = models.IntegerField(max_length=4, blank=True, null=True)
+	titles = models.CharField(max_length=250, blank=True)
 	gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
 	weapon = models.CharField(max_length=1, choices=WEAPON_CHOICES)
-	photo = models.ImageField(upload_to='roster/photos')
+	photo = models.ImageField(upload_to='roster/photos', blank=True)
+	bio = models.TextField()
+	
+	def __unicode__(self):
+		return (self.slug)
