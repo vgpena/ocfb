@@ -3,3 +3,8 @@
 
 photos/
 photos/*
+
+
+
+.DS_Store
+.pyc
