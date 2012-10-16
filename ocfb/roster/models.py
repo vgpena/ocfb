@@ -23,3 +23,4 @@ class Member(models.Model):
 	grad_year = models.IntegerField(max_length=4)
 	gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
 	weapon = models.CharField(max_length=1, choices=WEAPON_CHOICES)
+	photo = models.ImageField(upload_to='roster/photos')
