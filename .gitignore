@@ -12,6 +12,6 @@ photos/*
 
 /ocfb/ocfb/*.pyc
 /ocfb/roster/*.pyc
-
+/ocfb/gallery/*.pyc
 
 *db
