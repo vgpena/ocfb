@@ -25,7 +25,7 @@ class Member(models.Model):
 	titles = models.CharField(max_length=250, blank=True)
 	gender = models.CharField(max_length=1, choices=GENDER_CHOICES)
 	weapon = models.CharField(max_length=1, choices=WEAPON_CHOICES)
-	photo = models.ForeignKey('daguerre.Image', blank=True)
+	photo = models.ForeignKey('daguerre.Image', blank=True, null=True)
 	bio = models.TextField()
 	
 	def __unicode__(self):

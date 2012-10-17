@@ -15,12 +15,13 @@ class Category(models.Model):
 class Event(models.Model):
 	title = models.CharField(max_length=250)
 	slug = models.SlugField(max_length=200)
-	category = models.ForeignKey('Category', blank=True)
+	category = models.ForeignKey('Category', blank=True, null=True)
+	link = models.URLField()
 	location = models.CharField(max_length=250)
 	date = models.DateTimeField()
 	summary = models.TextField(blank=True)
-	preview_image = models.ForeignKey('gallery.Photo', blank=True)
-	media_gallery = models.ForeignKey('gallery.Gallery', blank=True)
+	preview_image = models.ForeignKey('gallery.Photo', blank=True, null=True)
+	media_gallery = models.ForeignKey('gallery.Gallery', blank=True, null=True)
 	
 	def __unicode__(self):
 		return (self.slug)
