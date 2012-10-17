@@ -1,5 +1,13 @@
 from django.db import models
 
+"""
+I want to put videos here eventually, but photos will do fine for now.
+Might want to use https://github.com/andrewebdev/django-video for that?
+
+"""
+
+
+
 class Gallery(models.Model):
 	"""
 	Also needs (as an optional field) a FK to an Event from another yet-to-be-made app.
