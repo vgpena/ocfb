@@ -8,8 +8,8 @@ class GalleryAdmin(admin.ModelAdmin):
 	list_display = ("title",)
 	
 class PhotoAdmin(admin.ModelAdmin):
-	list_display = ("image", "caption", "gallery",)
-
+	prepopulated_fields = {"slug": ("image",)}
+	list_display = ("slug", "caption", "gallery",)
 
 admin.site.register(Gallery, GalleryAdmin)
 admin.site.register(Photo, PhotoAdmin)
