@@ -8,7 +8,6 @@ class GalleryAdmin(admin.ModelAdmin):
 	list_display = ("title",)
 	
 class PhotoAdmin(admin.ModelAdmin):
-	prepopulated_fields = {"slug": ("caption","image",)}
 	list_display = ("image", "caption", "gallery",)
 
 

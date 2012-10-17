@@ -24,7 +24,7 @@ class Gallery(models.Model):
 	
 	
 class Photo(models.Model):
-	image = models.ImageField(upload_to='gallery/photos')
+	image = models.ForeignKey('daguerre.image')
 	credit = models.CharField(max_length=200, blank=True)
 	caption = models.CharField(max_length=300, blank=True)
 	gallery = models.ForeignKey('Gallery')
