@@ -1,5 +1,6 @@
 from django.db import models
 from gallery.models import Photo, Gallery
+from daguerre.models import Image
 
 class Category(models.Model):
 	name = models.CharField(max_length=50)
@@ -20,7 +21,7 @@ class Event(models.Model):
 	location = models.CharField(max_length=250)
 	date = models.DateTimeField()
 	summary = models.TextField(blank=True)
-	preview_image = models.ForeignKey('gallery.Photo', blank=True, null=True)
+	preview_image = models.ForeignKey('daguerre.Image', blank=True, null=True)
 	media_gallery = models.ForeignKey('gallery.Gallery', blank=True, null=True)
 	
 	def __unicode__(self):
