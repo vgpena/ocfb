@@ -1,0 +1,30 @@
+{% extends '__base.html' %}
+
+{% load daguerre %}
+{% load url from future %}
+{% load staticfiles i18n %}
+
+{% block title %}Roster{% endblock %}
+{% block pagetitle %}Roster{% endblock %}
+{% block bodycontent %}
+	<ul class="roster">
+		{% for member in roster %}
+			<li class="member">
+				<h3>{{ member.first_name }} {{ member.last_name }}</h3>
+				<h4>
+					{% if member.grad_year %}
+						Class of {{ member.grad_year }}.
+					{% endif %}
+					{% if member.titles %}
+						{{ member.titles }}
+					{% endif %}
+				</h4>
+				<h4>{{ member.gender }} / {{ member.weapon }}</h4>
+				{% if member.photo %}
+					<img src="{% adjust member.photo.image width=200 height=100 %}">
+				{% endif %}
+				{{ member.bio }}
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

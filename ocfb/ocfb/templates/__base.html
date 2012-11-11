@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			{% block title %}
+				lololol
+			{% endblock %}
+		</title>
+	</head>
+	<body>
+		<header>
+			<h1>Oberlin College Flaming Blades</h1>
+			<h2>{% block pagetitle %}{% endblock %}</h2>
+		</header>
+		{% block bodycontent %}
+			hey everyone!
+		{% endblock %}
+	</body>
+</html>

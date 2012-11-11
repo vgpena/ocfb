@@ -1,5 +1,7 @@
 from django.db import models
 
+from daguerre.models import Image
+
 
 """
 Options for gender (until collegiate fencing becomes more progressive) and weapon.

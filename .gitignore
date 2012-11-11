@@ -1,11 +1,3 @@
-#The photos folder
-#########
-
-photos/
-photos/*
-
-
-
 .DS_Store
 .pyc
  
