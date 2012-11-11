@@ -1,0 +1,25 @@
+{% extends '__base.html' %}
+
+{% load daguerre %}
+{% load url from future %}
+{% load staticfiles i18n %}
+
+{% block title %}Events{% endblock %}
+{% block pagetitle %}Events{% endblock %}
+{% block bodycontent %}
+	{% regroup events by category as categories_list %}
+	<ul class="events">
+		{% for category in categories_list %}
+			<li class="category">
+				<h3>{{ category.grouper }}</h3>
+				<ul>
+					{% for event in category.list %}
+						<li>
+							{{ event.title }} / {{ event.date }}
+						</li>
+					{% endfor %}
+				</ul>
+			</li>
+		{% endfor %}
+	</ul>
+{% endblock %}

@@ -19,7 +19,7 @@
 						{{ member.titles }}
 					{% endif %}
 				</h4>
-				<h4>{{ member.gender }} / {{ member.weapon }}</h4>
+				<h4>{{ member.gender }} {{ member.weapon }}</h4>
 				{% if member.photo %}
 					<img src="{% adjust member.photo.image width=200 height=100 %}">
 				{% endif %}

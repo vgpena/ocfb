@@ -17,7 +17,7 @@ urlpatterns = patterns('',
     # Uncomment the next line to enable the admin:
     url(r'^admin/', include(admin.site.urls)),
 	url(r'^roster/','ocfb.views.roster', name='roster'),
-	
+	url(r'^events/', 'ocfb.views.events', name='events'),
 	url(r'^media/', include('daguerre.urls')),
 )
 

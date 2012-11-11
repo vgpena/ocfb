@@ -11,7 +11,7 @@ class Category(models.Model):
 	
 	
 	def __unicode__(self):
-		return (self.slug)
+		return (self.name)
 
 class Event(models.Model):
 	title = models.CharField(max_length=250)
@@ -25,4 +25,4 @@ class Event(models.Model):
 	media_gallery = models.ForeignKey('gallery.Gallery', blank=True, null=True)
 	
 	def __unicode__(self):
-		return (self.slug)
+		return (self.title)
