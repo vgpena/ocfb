@@ -10,7 +10,7 @@
 	<ul class="galleries">
 		{% for gallery in galleries %}
 		<li>
-			<h3>{{ gallery }}</h3>
+			<h3>{{ gallery.title }} <small>{{ gallery.subtitle }}</small></h3>
 			<ul>
 				{% for photo in gallery.photos.all %}
 					<li>

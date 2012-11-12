@@ -23,6 +23,6 @@ def events(request):
 	return render_to_response("events.html", {"categories": categories, "past": past_events, "upcoming": upcoming_events})
 	
 def gallery(request):
-	galleries = Gallery.objects.all()
+	galleries = Gallery.objects.order_by("index")
 	
 	return render_to_response("gallery.html", {"galleries": galleries})

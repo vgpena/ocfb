@@ -14,7 +14,9 @@ class Gallery(models.Model):
 	
 	"""
 	title = models.CharField(max_length=200)
+	subtitle = models.CharField(max_length=200)
 	slug = models.SlugField(max_length=100)
+	index = models.PositiveIntegerField(help_text="This can be used to determine the order in which the galleries are displayed.")
 	
 	class Meta:
 		verbose_name_plural = 'galleries'

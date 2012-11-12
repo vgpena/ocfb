@@ -14,7 +14,7 @@ class PhotoInline(admin.StackedInline):
 class GalleryAdmin(admin.ModelAdmin):
 	prepopulated_fields = {"slug": ("title",)}
 	list_display = ("title",)
-	
+	sortable_field_name = "index"
 	inlines = [ PhotoInline, ]
 	
 admin.site.register(Gallery, GalleryAdmin)
