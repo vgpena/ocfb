@@ -5,6 +5,7 @@ import datetime
 
 from roster.models import Member
 from events.models import Category, Event
+from gallery.models import Gallery
 
 def index(TemplateView):
 	template_name = "index.html"
@@ -20,3 +21,8 @@ def events(request):
 	upcoming_events = Event.objects.filter(date__gte=datetime.datetime.now())
 	
 	return render_to_response("events.html", {"categories": categories, "past": past_events, "upcoming": upcoming_events})
+	
+def gallery(request):
+	galleries = Gallery.objects.all()
+	
+	return render_to_response("gallery.html", {"galleries": galleries})

@@ -19,6 +19,7 @@ urlpatterns = patterns('',
 	url(r'^roster/','ocfb.views.roster', name='roster'),
 	url(r'^events/', 'ocfb.views.events', name='events'),
 	url(r'^media/', include('daguerre.urls')),
+	url(r'^gallery/', 'ocfb.views.gallery', name='gallery'),
 )
 
 if settings.DEBUG:
