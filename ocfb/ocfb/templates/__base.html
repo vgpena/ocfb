@@ -5,6 +5,7 @@
 <html>
 	<head>
 		<link rel="stylesheet" href="{% static "bootstrap/css/bootstrap.css" %}" type="text/css" />
+		<link rel="stylesheet" href="{% static "bootstrap/css/bootstrap-responsive.css" %}" type="text/css" />
 		<title>
 			{% block title %}
 				lololol
@@ -12,12 +13,17 @@
 		</title>
 	</head>
 	<body>
-		<header>
-			<h1>Oberlin College Flaming Blades</h1>
-			<h2>{% block pagetitle %}{% endblock %}</h2>
-		</header>
-		{% block bodycontent %}
-			hey everyone!
-		{% endblock %}
+		<div class="container-fluid">
+			<div class="span12">
+				<header>
+					<div class="page-header">
+						<h1>Oberlin College Flaming Blades <small>{% block pagetitle %}{% endblock %}</small></h1>
+					</div>
+				</header>
+				{% block bodycontent %}
+					hey everyone!
+				{% endblock %}
+			</div>
+		</div>
 	</body>
 </html>
