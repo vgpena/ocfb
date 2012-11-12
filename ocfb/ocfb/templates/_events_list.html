@@ -1,0 +1,29 @@
+{% load daguerre %}
+{% load url from future %}
+{% load staticfiles i18n %}
+
+
+{% regroup events by category as categories_list %}
+<ul class="events">
+	<h2>{{ list }} Events</h2>
+	{% for category in categories_list %}
+		<li class="category">
+			<h3>{{ category.grouper }}</h3>
+			<ul>
+				{% for event in category.list %}
+					<li>
+						<h4>{{ event.date }} / {{ event.title }}</h4>
+						{{ event.location }}</br>
+						{% if event.preview_image %}
+							<img src="{% adjust event.preview_image.image width=300 height=400 %}">
+						{% endif %}
+						{% if event.summary %}
+							{{ event.summary }}
+						{% endif %}
+						{# if event.media_gallery... #}
+					</li>
+				{% endfor %}
+			</ul>
+		</li>
+	{% endfor %}
+</ul>
