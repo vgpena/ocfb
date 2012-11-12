@@ -27,7 +27,7 @@ class Photo(models.Model):
 	image = models.ForeignKey('daguerre.image')
 	credit = models.CharField(max_length=200, blank=True)
 	caption = models.CharField(max_length=300, blank=True)
-	gallery = models.ForeignKey('Gallery')
+	gallery = models.ForeignKey('Gallery', related_name="photos")
 	slug = models.SlugField(max_length=200)
 	
 	def __unicode__(self):
