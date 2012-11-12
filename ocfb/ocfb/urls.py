@@ -29,6 +29,6 @@ if settings.DEBUG:
 			}),
 		)
 
-#urlpatterns += patterns('django.contrib.flatpages.views',
-#	(r'^(?P<url>.*)$', 'flatpage')
-#)
+urlpatterns += patterns('django.contrib.flatpages.views',
+	(r'^(?P<url>.*)$', 'flatpage')
+)
