@@ -17,8 +17,8 @@ def roster(request):
 	
 def events(request):
 	categories = Category.objects.all()
-	past_events = Event.objects.exclude(date__gte=datetime.datetime.now())
-	upcoming_events = Event.objects.filter(date__gte=datetime.datetime.now())
+	past_events = Event.objects.exclude(date__gte=datetime.datetime.now()).order_by("category")
+	upcoming_events = Event.objects.filter(date__gte=datetime.datetime.now()).order_by("category")
 	
 	return render_to_response("events.html", {"categories": categories, "past": past_events, "upcoming": upcoming_events})
 	
