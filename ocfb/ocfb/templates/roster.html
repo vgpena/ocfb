@@ -7,23 +7,25 @@
 {% block title %}Roster{% endblock %}
 {% block pagetitle %}Roster{% endblock %}
 {% block bodycontent %}
+	{% regroup roster by weapon as team_list %}
 	<ul class="roster">
-		{% for member in roster %}
-			<li class="member">
-				<h3>{{ member.first_name }} {{ member.last_name }}</h3>
-				<h4>
-					{% if member.grad_year %}
-						Class of {{ member.grad_year }}.
-					{% endif %}
-					{% if member.titles %}
-						{{ member.titles }}
-					{% endif %}
-				</h4>
-				<h4>{{ member.gender }} {{ member.weapon }}</h4>
-				{% if member.photo %}
-					<img src="{% adjust member.photo.image width=200 height=100 %}">
-				{% endif %}
-				{{ member.bio }}
+		{% for weapon in team_list %}
+			<li>
+				{% regroup weapon.list by gender as squad_list %}
+				{% for gender in squad_list %}
+					<h2>{{ gender.grouper }} {{ weapon.grouper }}</h2>
+					<ul>
+						{% for member in gender.list %}
+							<li class="member">
+								<h3>{{ member.first_name }} {{ member.last_name }}{% if member.grad_year or member.titles %}<small>{% if member.grad_year %} / {{ member.grad_year }}{% endif %}{% if member.titles %} / {{ member.titles }}{% endif %}</small>{% endif %}</h3>
+								{% if member.photo %}
+									<img src="{% adjust member.photo.image width=200 height=200 adjustment='fill' %}">
+								{% endif %}
+								{{ member.bio }}
+							</li>
+						{% endfor %}
+					</ul>
+				{% endfor %}
 			</li>
 		{% endfor %}
 	</ul>

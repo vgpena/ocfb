@@ -11,7 +11,7 @@ def index(TemplateView):
 	template_name = "index.html"
 	
 def roster(request):
-	fullroster = Member.objects.all()
+	fullroster = Member.objects.order_by("weapon", "gender")
 
 	return render_to_response("roster.html", {"roster": fullroster})
 	
