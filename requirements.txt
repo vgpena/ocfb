@@ -1,7 +1,7 @@
-dj-database-url
 Django==1.4.2
 PIL==1.1.7
 South==0.7.6
+bees==0.0
 django-daguerre==0.1
+psycopg2==2.4.5
 wsgiref==0.1.2
--e src/bees
