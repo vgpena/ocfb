@@ -3,3 +3,4 @@ PIL==1.1.7
 South==0.7.6
 django-daguerre==0.1
 wsgiref==0.1.2
+-e src/bees

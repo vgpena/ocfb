@@ -127,9 +127,7 @@ INSTALLED_APPS = (
 	'django.contrib.sites',
 	'django.contrib.flatpages',
 
-	'roster',
-	'gallery',
-	'events',
+	'bees',
 )
 
 # A sample logging configuration. The only tangible logging
