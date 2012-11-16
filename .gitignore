@@ -1,2 +1,3 @@
 db.db
 ocdb/*.pyc
+.DS_Store
